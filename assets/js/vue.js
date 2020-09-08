@@ -13,7 +13,7 @@ const Home = {
 	name: 'Home',
 	data: () => {
 		return {
-
+ 
 			products,
 			searchkey:'',
 			liked: [],
