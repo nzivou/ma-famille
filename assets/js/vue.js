@@ -4,7 +4,6 @@ const products = [
   { id: 1, description: "Mon bb adoré", price: 1000, img: 'assets/img/sigma1.jpeg'},
   { id: 2, description: 'Mon amour', price:1000, img: 'assets/img/reb.JPG'},
   { id: 3, description: 'Père de famille', price: 1000, img: 'assets/img/davy.JPG'},
-  { id: 4, description: 'Papa et maman', price: 1000, img: 'assets/img/couple.JPG'},
 ]
 
 
@@ -13,7 +12,7 @@ const Home = {
 	name: 'Home',
 	data: () => {
 		return {
- 
+
 			products,
 			searchkey:'',
 			liked: [],
